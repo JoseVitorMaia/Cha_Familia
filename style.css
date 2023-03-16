@@ -61,7 +61,7 @@ section.imagem {
 section.normal {
     background-color: white;
     text-align: center;
-    height: 300px;
+    height: auto;
 }
 
 section.normal > p {
@@ -101,9 +101,12 @@ section.normal > p {
 
 #mapa {
     text-align: center;
-    background-color: rgb(0, 0, 0);
-    max-width: 900px;
     margin: auto;
+}
+
+iframe {
+    max-width: 900px;
+    width: 100%;
 }
 
 
