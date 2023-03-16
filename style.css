@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(imagens/background.jpg);
+    background-size: cover;
+    
+}
+
+
+header{
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.479);
+    font-family: 'Lobster', cursive;
+    font-size: 80px;
+    text-align: center;
+    padding: 30px;
+    width: auto;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.096);
+    font-variant: small-caps;
+}
+
+#container {
+    max-width: 900px;
+    margin: auto;
+}
+
+pre{
+    white-space: pre-line;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 50px;
+    line-height: 1.5em;
+}
+
+pre > p {
+    background-color: rgba(0, 0, 0, 0.205);
+}
+
+section {
+
+}
+
+
+section.imagem {
+    background-color: rgb(51, 51, 51);
+    color: white;
+    box-shadow: inset 6px 6px 13px rgba(0, 0, 0, 0.479);
+    background-attachment: fixed;
+    background-size: cover;
+    padding: 50px;
+    height: 30vh;
+}
+
+section.normal {
+    background-color: white;
+    text-align: center;
+    height: 300px;
+}
+
+section.normal > p {
+    font-size: 30px;
+    text-align: justify;
+    padding: 20px;
+}
+
+
+#section1{
+
+
+}
+
+#section2 {
+    background-image: url(imagens/foto1.jpeg);
+}
+
+
+#section3 {
+    font-family: cursive;
+    padding: 30px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.192);
+}
+
+#section4 {
+
+    background-image: url(imagens/foto3.jpeg);
+}
+
+#section5 {
+    font-family: cursive;
+    padding: 30px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.192);
+}
+
+
+#mapa {
+    text-align: center;
+    background-color: rgb(0, 0, 0);
+    max-width: 900px;
+    margin: auto;
+}
+
+
+footer{
+    background-color: rgba(218, 165, 32, 0.123);
+   position: bottom;
+   padding: 10px;
+}
